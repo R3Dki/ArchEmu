@@ -2,8 +2,10 @@
 A C++ Microprocessor Architecture Emulator
 <details>
 <summary>
+  
 # Supported CPUs
 </summary>
+
 ## Intel
 - [x] Intel 4004
 - [ ] Intel 4040
