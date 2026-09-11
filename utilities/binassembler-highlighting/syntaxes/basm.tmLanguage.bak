@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Bin Assembler File",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.basm",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		}
+		/*
+		,
+		"strings": {
+			"name": "string.quoted.double.basm",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.basm",
+					"match": "\\\\."
+				}
+			]
+		},
+			*/
+	},
+	"scopeName": "source.basm"
+}

@@ -1,0 +1,63 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cstddef": "cpp",
+			"vector": "cpp",
+			"xstring": "cpp",
+			"xiosbase": "cpp",
+			"iostream": "cpp",
+			"format": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp",
+			"xutility": "cpp",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"cctype": "cpp",
+			"charconv": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"exception": "cpp",
+			"fstream": "cpp",
+			"ios": "cpp",
+			"iosfwd": "cpp",
+			"istream": "cpp",
+			"iterator": "cpp",
+			"limits": "cpp",
+			"locale": "cpp",
+			"memory": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"string": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"typeinfo": "cpp",
+			"xfacet": "cpp",
+			"xlocale": "cpp",
+			"xlocbuf": "cpp",
+			"xlocinfo": "cpp",
+			"xlocmes": "cpp",
+			"xlocmon": "cpp",
+			"xlocnum": "cpp",
+			"xloctime": "cpp",
+			"xmemory": "cpp",
+			"xtr1common": "cpp",
+			"iomanip": "cpp"
+		}
+	}
+}

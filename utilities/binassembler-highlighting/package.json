@@ -1,0 +1,25 @@
+{
+  "name": "binassembler-highlighting",
+  "displayName": "BinAssembler Highlighting",
+  "description": "Highlighting Support for BinAssembler Source Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "basm",
+      "aliases": ["Bin Assembler File", "basm"],
+      "extensions": [".basm",".bs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "basm",
+      "scopeName": "source.basm",
+      "path": "./syntaxes/basm.tmLanguage.json"
+    }]
+  }
+}

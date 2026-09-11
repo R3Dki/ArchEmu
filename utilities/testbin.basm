@@ -1,0 +1,31 @@
+D6 : load 6
+B1 : exchange 1
+A1 : load r1
+F5 : shift left
+B0 : exchange 0
+A0 : LO R ZRO
+F4 : OMPLMNT  KKUMUL TOR
+B2 : XHNG R TWO
+A2 : LO R TWO
+F4 : OMPLMNT  KKUMUL TOR
+F6 : SHI T RIGHT RR
+F6 : SHI T RIGHT RR
+B3 : XHNG R THR
+A3 : LO R THR
+F2F2F2F2
+: increment acc 4 times
+D6
+B1
+A1
+F5
+BC
+AC
+F4
+B2
+A2
+F4
+F6
+F6
+B3
+A3
+F2F2F2F2

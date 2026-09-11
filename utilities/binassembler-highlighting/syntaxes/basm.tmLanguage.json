@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Bin Assembler File",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control",
+				"match": "(0|1|2|3|4|5|6|7|8|9|a|A|b|B|c|C|d|D|e|E|f|F)"
+			},{
+				"name":"comment.block",
+				"begin": "(;)",
+				"end": "(;)"
+			},{
+				"name":"comment.line",
+				"begin": "(:)",
+				"end": "(\n)"
+			}]
+		}
+	},
+	"scopeName": "source.basm"
+}
