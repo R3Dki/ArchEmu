@@ -30,3 +30,6 @@ A C++ Microprocessor Architecture Emulator
 - [ ] MOS 6501
 - [ ] MOS 6502
 </details>
+
+## License
+ArchEmu is licensed under the GNU General Public License, version 2 only (GPL-2.0-only); see [LICENSE](LICENSE).
